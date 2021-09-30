@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO APPLICATION</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./todo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&family=Scheherazade+New&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+
+    <div class="main_container">
+        <header >
+            <div class="container header_div">
+                <h1>todo list</h1>
+            </div>
+        </header>
+
+        <section class="container ">
+            <div class="input_field">
+                <input type="text" id="todo_text" name="todo" placeholder="enter your task">
+                <button class="btn btn-success" id="button_add_task">
+                    add task
+                </button>
+             </div>
+             <ul class="todo_list" id="todo_list">
+                 <!-- <li class="list_item">
+                     <span class="todo_list_text">
+                         <input type="checkbox" value="todo_check" name="todo_check" id="check">
+                         <label for="check" id="label">task</label>
+                     </span>
+                    <button class="btn  btn-danger" id="button_close_task" >
+                        &times;
+                    </button>
+                 </li> -->
+             </ul>
+        </section>
+        <footer class="bg-secondary">
+            <div class="container footer_div">
+                <small>application developed by ARUN</small>
+            </div>
+        </footer>
+    </div>
+    <script src="./jquery.js"></script>
+   <script src="./todo.js"></script>
+</body>
+</html>
